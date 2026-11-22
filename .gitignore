@@ -1,0 +1,55 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/bin/
+/dist/
+
+# Test binaries, built with `go test -c`
+*.test
+
+# Coverage and profiling output
+*.out
+coverage.*
+*.coverprofile
+profile.cov
+*.prof
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Vendored dependencies (remove this line if you commit vendor/)
+/vendor/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Debugger and live-reload artifacts
+__debug_bin*
+/tmp/
+
+# Editor and IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Memories of the agent, which can have home and work addresses
+memory.md
+memory.json
+
+# The feedback of the user after each trip
+feedback.md
+
+# The conversation cookie of "make chat". Delete it to start a new conversation.
+.chat-cookies
+
+# OS files
+.DS_Store
+Thumbs.db
